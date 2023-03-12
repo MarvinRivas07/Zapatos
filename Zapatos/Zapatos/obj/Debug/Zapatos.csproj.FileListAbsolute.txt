@@ -1,0 +1,8 @@
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\bin\Debug\Zapatos.exe.config
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\bin\Debug\Zapatos.exe
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\bin\Debug\Zapatos.pdb
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\obj\Debug\Zapatos.csproj.AssemblyReference.cache
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\obj\Debug\Zapatos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\obj\Debug\Zapatos.csproj.CoreCompileInputs.cache
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\obj\Debug\Zapatos.exe
+C:\Users\Marvi\Desktop\PROGRA lll\Zapatos\Zapatos\obj\Debug\Zapatos.pdb
