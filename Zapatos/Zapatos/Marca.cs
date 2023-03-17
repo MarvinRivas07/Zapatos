@@ -8,6 +8,7 @@ namespace Zapatos
 {
     internal class Marca
     {
+        Tiendas tienda = new Tiendas();
         public string tipo;
         public string marca;
         public string talla;
@@ -24,17 +25,19 @@ namespace Zapatos
                     tipo = "Zapato Adam James";
                     marca = "NIKE";
                     talla = "32";
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "no tienen descuento");
                     break;
                 case 2:
                     tipo = "Zapato Tempra Oxford";
                     marca = "ADIDAS";
                     talla = "39";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 25% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + " tienen un 20% de descuento");
                     break;
                 case 3:
                     tipo = "Tenis Jean Oxford";
                     marca = "ADIDAS";
                     talla = "34";
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "no tienen descuento");
                     break;
                 default:
                     break;
@@ -55,19 +58,21 @@ namespace Zapatos
                     tipo = "Under Armour";
                     marca = "Under Armour";
                     talla = "34";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 10% de descuento" );
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + " tienen un 19% de descuento");
+                    
                     break;
                 case 2:
                     tipo = "Brooks Adrenaline GTS 22";
                     marca = "PUMA";
                     talla = "40";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 7% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "tienen un 12% de descuento");
                     break;
                 case 3:
                     tipo = "New Balance";
                     marca = "NB";
                     talla = "32";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 9% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + " tienen un 30% de descuento");
+
                     break;
                 default:
                     break;
@@ -88,18 +93,19 @@ namespace Zapatos
                     tipo = "Zapatos de tacon semi abiertos";
                     marca = "SODA";
                     talla = "28";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 30% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "tienen un 8% de descuento");
                     break;
                 case 2:
                     tipo = "Sandalias flast blancas";
                     marca = "MOLECA";
                     talla = "32";
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "no tienen descuento");
                     break;
                 case 3:
                     tipo = "Sandalias de plataforma cafés";
                     marca = "JESSICA CARLYLE";
                     talla = "30";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 10% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "tienen un 16% de descuento");
                     break;
                 default:
                     break;
@@ -110,7 +116,7 @@ namespace Zapatos
         public void zapatoParaNiño()
         {
             Console.WriteLine("BIENVENID@ A LA SECCION DE ZAPATOS DEPORTIVOS");
-
+          
             Console.WriteLine("Que tipo de zapatos desea: \n1-Nike Air Max 90 LTR\nMARCA: NIKE \nTALLA: 22  \n2-Adidas Racer \nMARCA: ADIDAS\nTALLA: 2O " +
                 "\n3-Fresh Foam Roav\nMARCA: NEW BALANCE \nTALLA: 20");
             int opcion = int.Parse(Console.ReadLine());
@@ -120,18 +126,19 @@ namespace Zapatos
                     tipo = "Nike Air Max 90 LTR";
                     marca = "NIKE";
                     talla = "22";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos que seleccionaste tienen un 8% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "tienen un 8% de descuento");
                     break;
                 case 2:
                     tipo = "Adidas Racer";
                     marca = "ADIDAS";
                     talla = "20";
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "no tienen descuento");
                     break;
                 case 3:
                     tipo = "Fresh Foam Roav";
                     marca = "NEW BALANCE";
                     talla = "20";
-                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + tipo + "que seleccionaste tienen un 9% de descuento");
+                    Console.WriteLine("FELICIDADES!!!!!!!!!!! \n Los zapatos" + " " + tipo + "tienen un 9% de descuento");
                     break;
                 default:
                     break;
